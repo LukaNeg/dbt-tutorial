@@ -1,0 +1,25 @@
+
+
+============================== 2022-05-18 13:19:18.408497 | f541d2ca-b3b2-4755-9c65-6c72d37f67af ==============================
+13:19:18.408510 [info ] [MainThread]: Running with dbt=1.1.0
+13:19:18.408871 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/lukanegoita/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'dbt-tutorial', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+13:19:18.409064 [debug] [MainThread]: Tracking: tracking
+13:19:18.439380 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a26e130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a26e8e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a26e0a0>]}
+13:19:57.897941 [debug] [MainThread]: Starter project path: /usr/local/Cellar/dbt-postgres/1.1.0/libexec/lib/python3.9/site-packages/dbt/include/starter_project
+13:20:11.584708 [info ] [MainThread]: 
+Your new dbt project "demo_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+13:20:11.585159 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a287e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a287fa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a287fd0>]}
